@@ -69,6 +69,7 @@ export default {
        * Event handler for archiving tasks
        */
       archiveTask() {
+        console.log(1)
         emit('archive-task', props.task.id);
       },
       /**
